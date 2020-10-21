@@ -56,6 +56,14 @@ If you are not on 64-bit architecture, you will have to modify the command in pa
 
 to use `--arch=ia32`.
 
+If you are on Raspberry Pi, you will have to modify the command in package.json:
+
+```
+"rebuild-leveldb": "cd node_modules/leveldown && set HOME=~/.electron-gyp && node-gyp rebuild --target=$(../../version.js) --arch=x64 --dist-url=https://atom.io/download/atom-shell"
+```
+
+to use `--arch=armhf`.
+
 ## Usage
 
 ### GitHub Login
