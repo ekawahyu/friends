@@ -35,7 +35,7 @@
     "highlight.js": "^9.2.0",
     "inherits": "^2.0.1",
     "level-js": "^2.2.1",
-    "leveldown": "^1.4.1",
+    "leveldown": "^2.0.1",
     "levelup": "^1.2.1",
     "lodash.uniq": "^4.2.0",
     "mkdirp": "^0.5.1",
